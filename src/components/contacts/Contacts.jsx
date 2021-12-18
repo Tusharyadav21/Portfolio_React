@@ -30,7 +30,7 @@ const Contacts = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's discuss your project</h1>
+                    <h1 className="c-title">Get in Touch...</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />+91 8417 9418 66
@@ -42,13 +42,13 @@ const Contacts = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What's your story</b> Get in touch. Always available for freelancing if the right project comes along me.
+                        <b>Feel free to write a message.. </b> 
                     </p>
                     <form ref={formref} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Name" name="user_name" />
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Subject" name="user_subject" />
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" placeholder="Email" name="user_email" />
-                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows="5" placeholder="Message" name="message" />
+                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows="3" type="text" placeholder="Message" name="message" />
                         <button>Submit</button>
                         <div className="done">
                             {done && "Thank you..."}

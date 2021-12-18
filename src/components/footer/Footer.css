@@ -1,0 +1,19 @@
+.footer {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-logo {}
+
+.f-social {
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f-icon {
+    margin: 0rem 1rem 0rem 1rem;
+}
