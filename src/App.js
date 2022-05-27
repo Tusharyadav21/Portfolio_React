@@ -7,7 +7,7 @@ import Toggle from "./components/toggle/Toggle";
 // import Footer from "./components/footer/Footer";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
-import Skills from "./components/skills/Skills";
+// import Skills from "./components/skills/Skills";
 
 const App = () => {
 	const theme = useContext(ThemeContext);
