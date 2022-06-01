@@ -1,14 +1,14 @@
 import React from 'react';
-import './Skills.css';
+import styles from './Skills.module.css';
 
-const Education = () => {
+const Skills = () => {
     return (
         <>
-            <div>
+            <div class={styles.card} >
                 Skills
             </div>
         </>
     )
 }
 
-export default Education
+export default Skills

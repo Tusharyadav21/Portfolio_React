@@ -4,10 +4,10 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productlist/ProductList";
 import Contacts from "./components/contacts/Contacts";
 import Toggle from "./components/toggle/Toggle";
+import Skills from "./components/skills/Skills";
 // import Footer from "./components/footer/Footer";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
-// import Skills from "./components/skills/Skills";
 
 const App = () => {
 	const theme = useContext(ThemeContext);
@@ -19,7 +19,7 @@ const App = () => {
 				<Toggle />
 				<Intro />
 				<About />
-				{/* <Skills /> */}
+				<Skills />
 				<ProductList />
 				<Contacts />
 				{/* <Footer /> */}
