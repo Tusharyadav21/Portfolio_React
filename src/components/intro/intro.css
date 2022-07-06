@@ -93,8 +93,14 @@
 }
 .btn-resume {
 	display: block;
-	/* width: 100%; */
-	max-width: 120px;
+	height: 50px;
+	width: 120px;
+}
+.btn-resume:hover {
+	/* outline: 2px dotted rgba(89, 178, 86, 0.897); */
+	/* background-color: #60c45d; */
+	transform: scale(1.5);
+	transition: all 0.5s;
 }
 
 @media screen and (max-width: 883px) {

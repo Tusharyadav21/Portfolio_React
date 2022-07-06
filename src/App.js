@@ -18,9 +18,9 @@ const App = () => {
 			<div style={{ backgroundColor: darkMode ? "#222" : "White", color: darkMode && "white" }}>
 				<Toggle />
 				<Intro />
-				<About />
+				{/* <About /> */}
 				<Skills />
-				<ProductList />
+				{/* <ProductList /> */}
 				<Contacts />
 				{/* <Footer /> */}
 			</div>

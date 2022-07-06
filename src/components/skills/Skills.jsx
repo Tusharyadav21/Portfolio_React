@@ -4,7 +4,7 @@ import styles from './Skills.module.css';
 const Skills = () => {
     return (
         <>
-            <div class={styles.card} >
+            <div class={styles.container}>
                 Skills
             </div>
         </>
